@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        #map{
+            height:300px ;
+            width:50%;       
+        }
+    </style>
+    </head>
+<body>
+    <div id="map"> </div>
+    <script>
+        function initMap() {
+            var location = { lat: 39.999, lng: -83.015 };
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 15,
+                center: location
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNJZiDyVh5iNX-IYQgyiC-3OrW_W7h7os&callback=initMap">  </script>
+</body>
+</html>
+
+
+
+    @model IEnumerable<FisherLink.Models.SchoolViewModels.EnrollmentDateGroup>
+
+    @{
+        ViewData["Title"] = "Student Body Statistics";
+    }
+
+    <h2>Student Body Statistics</h2>
+
+    <table>
+        <tr>
+            <th>
+                Enrollment Date
+            </th>
+            <th>
+                Students
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                </td>
+                <td>
+                    @item.StudentCount
+                </td>
+            </tr>
+        }
+    </table>
