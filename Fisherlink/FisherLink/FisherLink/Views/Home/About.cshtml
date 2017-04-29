@@ -1,58 +1,33 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <style>
-        #map{
-            height:300px ;
-            width:50%;       
-        }
-    </style>
-    </head>
-<body>
-    <div id="map"> </div>
-    <script>
-        function initMap() {
-            var location = { lat: 39.999, lng: -83.015 };
-            var map = new google.maps.Map(document.getElementById("map"),{
-                zoom: 15,
-                center: location
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNJZiDyVh5iNX-IYQgyiC-3OrW_W7h7os&callback=initMap">  </script>
-</body>
-</html>
-
-
-
-    @model IEnumerable<FisherLink.Models.SchoolViewModels.EnrollmentDateGroup>
-
-    @{
-        ViewData["Title"] = "Student Body Statistics";
+﻿<style>
+    p1 {
+        color: black;
+        font-size: 120%;
     }
 
-    <h2>Student Body Statistics</h2>
+    p2 {
+        color: cadetblue;
+        font-size: 120%;
+    }
+</style>
+@{
+    ViewData["Title"] = "About FisherLink";
 
-    <table>
-        <tr>
-            <th>
-                Enrollment Date
-            </th>
-            <th>
-                Students
-            </th>
-        </tr>
+}
+<h2>@ViewData["Title"]</h2>
+<div>
+    <p1>
+        This project was implemented using ASP.NET Core and MVC. The goal was to create a web application for student and enrollment information. <br>
+        The project implements local and Facebook authentication along with authorization.<br><br>
+    </p1>
+</div>
+<div>
+    <p2>
+        Foundations of Business Information Systems<br>
+        Developed By: Bill Matera, Samuel Laubach, Jamie Schirra, Suren David, Matthew Hiler                     
+        <br><br><br>
+    </p2>
+</div>
 
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EnrollmentDate)
-                </td>
-                <td>
-                    @item.StudentCount
-                </td>
-            </tr>
-        }
-    </table>
+<div>
+    <img src="~/images/arial_view.jpg">
+</div>

@@ -1,0 +1,14 @@
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\FisherLinkTest.deps.json
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\FisherLinkTest.runtimeconfig.json
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\FisherLinkTest.runtimeconfig.dev.json
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\FisherLinkTest.dll
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\obj\Debug\netcoreapp1.1\FisherLinkTest.csprojResolveAssemblyReference.cache
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\obj\Debug\netcoreapp1.1\FisherLinkTest.AssemblyInfo.cs
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\FisherLinkTest.pdb
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\FisherLink.dll
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\bin\Debug\netcoreapp1.1\FisherLink.pdb
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\obj\Debug\netcoreapp1.1\FisherLinkTest.dll
+C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLinkTest\obj\Debug\netcoreapp1.1\FisherLinkTest.pdb

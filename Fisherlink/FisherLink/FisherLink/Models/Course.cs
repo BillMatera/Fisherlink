@@ -19,6 +19,8 @@ namespace FisherLink.Models
         [Column("Lng")]
         public double? lng { get; set; }
 
+        public string Building { get; set; }
+
         public int DepartmentID { get; set; }
 
         public Department Department { get; set; }

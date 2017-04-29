@@ -82,6 +82,8 @@ namespace FisherLink.Data.Migrations
                 {
                     b.Property<int>("CourseID");
 
+                    b.Property<string>("Building");
+
                     b.Property<int>("Credits");
 
                     b.Property<int>("DepartmentID");

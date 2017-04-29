@@ -17,24 +17,24 @@ namespace FisherLink.Controllers
 {
     [Authorize]
     public class AccountController : Controller
-    {
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _signInManager;
+    {//when user clicks register, the USeRmanager and signInManager services are injected into controller
+        private readonly UserManager<ApplicationUser> _userManager;//
+        private readonly SignInManager<ApplicationUser> _signInManager;//
         private readonly IEmailSender _emailSender;
         private readonly ISmsSender _smsSender;
         private readonly ILogger _logger;
         private readonly string _externalCookieScheme;
 
         public AccountController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
+            UserManager<ApplicationUser> userManager,//injection
+            SignInManager<ApplicationUser> signInManager,//injection
             IOptions<IdentityCookieOptions> identityCookieOptions,
             IEmailSender emailSender,
             ISmsSender smsSender,
             ILoggerFactory loggerFactory)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            _userManager = userManager;//DI
+            _signInManager = signInManager;//DI
             _externalCookieScheme = identityCookieOptions.Value.ExternalCookieAuthenticationScheme;
             _emailSender = emailSender;
             _smsSender = smsSender;

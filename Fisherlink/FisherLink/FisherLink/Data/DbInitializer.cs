@@ -89,26 +89,26 @@ namespace FisherLink.Data
 
             var courses = new Course[]
             {
-                new Course {CourseID = 1050, Title = "Chemistry",      Credits = 3, lat = 40.003876, lng = -80.00138,
-                    DepartmentID = departments.Single( s => s.Name == "Engineering").DepartmentID
+                new Course {CourseID = 1050, Title = "Chemistry",  Credits = 3, lat = 40.003888, lng = -80.00133488,
+                    Building = "Koffolt Labs" ,DepartmentID = departments.Single( s => s.Name == "Engineering").DepartmentID
                 },
-                new Course {CourseID = 4022, Title = "Microeconomics", Credits = 3,
-                    DepartmentID = departments.Single( s => s.Name == "Economics").DepartmentID
+                new Course {CourseID = 4022, Title = "Microeconomics", Credits = 3, lat = 40.000618, lng = -83.015747,
+                    Building = "Indpendence Hall" , DepartmentID = departments.Single( s => s.Name == "Economics").DepartmentID
                 },
-                new Course {CourseID = 4041, Title = "Macroeconomics", Credits = 3,
-                    DepartmentID = departments.Single( s => s.Name == "Economics").DepartmentID
+                new Course {CourseID = 4041, Title = "Macroeconomics", Credits = 3, lat = 40.004475, lng = -83.015384,
+                    Building = "Mason Hall" , DepartmentID = departments.Single( s => s.Name == "Economics").DepartmentID
                 },
-                new Course {CourseID = 1045, Title = "Calculus",       Credits = 4,
-                    DepartmentID = departments.Single( s => s.Name == "Mathematics").DepartmentID
+                new Course {CourseID = 1045, Title = "Calculus", Credits = 4, lat = 40.001764, lng = -83.014397,
+                    Building = "Math Tower" , DepartmentID = departments.Single( s => s.Name == "Mathematics").DepartmentID
                 },
-                new Course {CourseID = 3141, Title = "Trigonometry",   Credits = 4,
-                    DepartmentID = departments.Single( s => s.Name == "Mathematics").DepartmentID
+                new Course {CourseID = 3141, Title = "Trigonometry",   Credits = 4, lat = 40.001764, lng = -83.014397,
+                    Building = "Math Tower" , DepartmentID = departments.Single( s => s.Name == "Mathematics").DepartmentID
                 },
-                new Course {CourseID = 2021, Title = "Composition",    Credits = 3,
-                    DepartmentID = departments.Single( s => s.Name == "English").DepartmentID
+                new Course {CourseID = 2021, Title = "Composition",    Credits = 3, lat = 39.996493, lng = -83.008285,
+                    Building = "Drinko Hall" , DepartmentID = departments.Single( s => s.Name == "English").DepartmentID
                 },
-                new Course {CourseID = 2042, Title = "Literature",     Credits = 4,
-                    DepartmentID = departments.Single( s => s.Name == "English").DepartmentID
+                new Course {CourseID = 2042, Title = "Literature",     Credits = 4, lat = 39.996493, lng = -83.008285,
+                    Building = "Drinko Hall" , DepartmentID = departments.Single( s => s.Name == "English").DepartmentID
                 },
             };
 
