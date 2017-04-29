@@ -6,22 +6,3 @@
     background-size: 100% 100%;
 }
 
-/*
-If you would like the background image to fit the height of your jumbotron, but don't care about if it stretches to the entire width:
-    .jumbotron { background-size: auto 100%; }
-
-If you want the background image to cover the entire height AND width of the jumbotron and you do not care about the image's aspect ratio:
-    .jumbotron {background-size: 100% 100%; }
-
-If you want the background image to be cover the entire height AND width the jumbotron but you DO care about the image's aspect ratio:
-    .jumbotron {  background-size: cover; }
-
-Image in the center of container 
-    background-position: center center;
-
-OR Image in the center top of the container
-    background-position: center top;
-
-OR Image in the center bottom of the container
-    background-position: center bottom;
-*/
