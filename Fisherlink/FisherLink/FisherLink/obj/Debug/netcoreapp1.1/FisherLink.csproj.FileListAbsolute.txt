@@ -32,7 +32,6 @@ C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\bin\Debug\netcore
 C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\bin\Debug\netcoreapp1.1\FisherLink.runtimeconfig.dev.json
 C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\bin\Debug\netcoreapp1.1\FisherLink.dll
 C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\bin\Debug\netcoreapp1.1\FisherLink.pdb
-C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\obj\Debug\netcoreapp1.1\FisherLink.csprojResolveAssemblyReference.cache
 C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
 C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\obj\Debug\netcoreapp1.1\FisherLink.AssemblyInfo.cs
 C:\AMIS3610\GitHub\Fisherlink\Fisherlink\FisherLink\FisherLink\obj\Debug\netcoreapp1.1\FisherLink.dll
